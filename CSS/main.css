@@ -465,6 +465,10 @@ header {
         font-size: 18px;
         padding-left: 15px;
     }
+    .contact-us .body .location h4{
+        font-size: 15px;
+
+    }
 }
 
 .contact-us .body .location a {
@@ -476,13 +480,12 @@ header {
 
 @media (max-width: 400px) {
     .contact-us .body .location a {
-        font-size: 18px;
+        font-size: 15px;
     }
 }
 
 .contact-us .body .location h4 {
     top: 345px;
-    font-size: 1.25rem;
 }
 
 .contact-us .body .location h5 {
