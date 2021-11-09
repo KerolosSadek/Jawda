@@ -1,5 +1,4 @@
 //Start Slider JS Code
-
 const slideArray = [];
 for (let i = 0; i < document.querySelectorAll('.slider div').length; i++) {
     slideArray.push(document.querySelectorAll('.slider div')[i].dataset.background);
@@ -28,7 +27,7 @@ function advanceSliderItem() {
 let intervalID = setInterval(advanceSliderItem, 3000);
 
 //End Slider JS Code
-/* ************************************************************** */
+/* ************************************************************* */
 //Start Tabs Js Code
 function openPage(pageName, elmnt, color) {
     // Hide all elements with class="tabcontent" by default */
