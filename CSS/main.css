@@ -348,13 +348,33 @@ header {
 .tabs{
     background-color: rgb(255, 255, 255);
     padding-bottom: 40px;
-    height: 400px;
+    height: 600px;
     word-wrap: break-word;
+   
+}
+.tabs::after{
+    content: "";
+    display: table;
+    clear: both;
 }
 @media(max-width:992px){
     .tabs{
-        height: 775px;
+        height: 1000px;
     }
+}
+@media(min-width:430px) and (max-width:991px){
+    .tabs{
+        height: 850px;
+    }
+}
+/* @media (min-width:420px){
+    .tabs{
+        height: 950px;        
+    }
+} */
+.tabs .tabs-content{
+    width: 50%;
+    float: left;
 }
 .tabs h3{
     font-weight: 100;
@@ -394,6 +414,37 @@ header {
     padding: 100px 20px;
     height: 100%;
 }
+.tabs img{
+    width: 45%;
+    float: right;
+    height: 65%;
+    border-radius: 10px;
+    margin-top: 25px;
+    -webkit-box-shadow: 7px 3px 10px 0px rgba(40,46,34,0.69);
+    -moz-box-shadow: 7px 3px 10px 0px rgba(40,46,34,0.69);
+    box-shadow: 7px 3px 10px 0px rgba(40,46,34,0.69);
+}
+@media (min-width:768px) and (max-width:993px){
+    .tabs img{
+        width: 50%;
+        float: right;
+        height: 70%;
+        border-radius: 10px;
+        margin-top: 46px;
+    }
+}
+@media (max-width:768px){
+    .tabs img{
+        width: 75%;
+        height:25%;
+        margin-right:13%;
+        margin-top:63px;
+    }
+    .tabs .tabs-content{
+        width: 100%;
+    }
+}
+
 
 #Home {background-color: #43bcab;}
 #about-us {background-color: #5fafa3;}
