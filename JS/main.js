@@ -55,4 +55,3 @@ function openPage(pageName, elmnt, color) {
 document.getElementById("defaultOpen").click();
 // End Tabs Js Code
 /* ************************************************************** */
-// Start Button Top Page

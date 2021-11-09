@@ -190,7 +190,7 @@ header {
 }
 @media (max-width: 768px){
     .third-level-menu {
-        right: 83px;
+        right: 66px;
         top: 60px;
         width: 256px;
     }
